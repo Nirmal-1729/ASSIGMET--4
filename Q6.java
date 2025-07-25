@@ -1,22 +1,19 @@
 import java.util.Scanner;
 class loop{
-    public static void main(String args []){
+    public static void main (String args[]){
         Scanner input =new Scanner(System.in);
-         System.out.println("Enter the value of n :");
-        int n=input.nextInt();
+        System.out.println("enter the n ");
+        int n= input.nextInt();
         int i=1;
-        int a=1;
-
-        while(i<=n){
-            if(i%2==0){
-                a=a-i;
-              
-            }
+        
+        while(i<=n/2){
+           
+            System.out.print("the Number prime ");
             else 
-               a=a+i;
-            
-
+            System.out.print("the Number not prime ");
+            i++;
         }
-          System.out.println(+a);
+   
     }
 }
+//not done

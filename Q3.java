@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class loop{
-    public static void main(String args []){
+    public static void main (String args[]){
         Scanner input =new Scanner(System.in);
-         System.out.println("Enter the value of n :");
-        int n=input.nextInt();
-        int i=1;
-
+        System.out.print("enter the n ");
+        int n = input.nextInt();
+        int i =1;
+        int Sum = 0;
         while(i<=n){
-            System.out.println(i*i);
-            i++;
-
+            Sum = Sum+i;
+        System.out.println( + Sum );
+        i++;
         }
     }
 }

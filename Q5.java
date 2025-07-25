@@ -1,18 +1,17 @@
 import java.util.Scanner;
 class loop{
-    public static void main(String args []){
+    public static void main (String args[]){
         Scanner input =new Scanner(System.in);
-         System.out.println("Enter the value of n :");
-        int n=input.nextInt();
-        int i=1;
-        int a=0;
-
+        System.out.println("enter the n ");
+        int n = input.nextInt();
+        int i =1;
+         int fact=1;
         while(i<=n){
-            a= a+i;
-            i++;
-            System.out.println(a);
-            
-
+        fact = fact*i;
+        System.out.println(+fact);
+        i++;
         }
+   
     }
 }
+// 5*(5-1)*(5-2)*(5-3)(5-4)

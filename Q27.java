@@ -5,13 +5,12 @@ class loop{
       System.out.println("enter the Number");
       int n= input.nextInt();
      
-      int i=1;
+      int i=0;
       while(i<=n){
-        if (i%5==0)
-        System.out.print("\tHello\t" );
-
+        if (i%2==0)
+        System.out.print( '*');
         else
-        System.out.print("\t"+i+"\t");
+        System.out.print( '#' );
         i++;
       }
 
